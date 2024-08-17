@@ -9,8 +9,8 @@ This repository contains the code for a simple web application built with [Strea
 2. An OpenAI API Key
 
 ### App Demo
-=======
-![StreamlitChatbot](https://github.com/aayushga/streamlit_chatbot_base/assets/streamlit-chatbot-2024-08-11-21-08-24.mp4)
+![StreamlitChatbot](https://github.com/aayushga/streamlit_chatbot/blob/main/assets/streamlit-chatbot-2024-08-11-21-08-24.mp4)
+
 
 
 ### Steps to run the application
