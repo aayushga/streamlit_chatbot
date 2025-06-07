@@ -147,8 +147,9 @@ def capture_voice_input_whisper():
                         model="whisper-1",
                         response_format="json"
                     )
-                    st.write(transcript)  # Debugging: check the content of the transcript
-                    return transcript.text  # Accessing the 'text' attribute directly
+                os.remove(temp_audio_file_path)
+                st.write(transcript)  # Debugging: check the content of the transcript
+                return transcript.text  # Accessing the 'text' attribute directly
             except sr.WaitTimeoutError:
                 st.write("Listening timed out while waiting for phrase to start.")
             except sr.UnknownValueError:
